@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/akbarimo/zoom-attendance/issues"
   },
-  "homepage": "https://github.com/akbarimo/zoom-attendance#readme"
+  "homepage": "https://github.com/akbarimo/zoom-attendance#readme",
+  "dependencies": {
+    "@google/clasp": "^2.4.2"
+  }
 }
