@@ -1,3 +1,1 @@
-function myFunction() {
-  var world = "世界";
-}
+const world = 'Earth';

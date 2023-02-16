@@ -1,5 +1,3 @@
-function myFunction() {
-  function hello() {
-    Logger.log("Hello, " + world);
-  }
-}
+const AttendanceTaker = () => {
+  console.log(`Hello ${world}`);
+};

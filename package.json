@@ -17,7 +17,8 @@
     "url": "https://github.com/akbarimo/zoom-attendance/issues"
   },
   "homepage": "https://github.com/akbarimo/zoom-attendance#readme",
-  "dependencies": {
-    "@google/clasp": "^2.4.2"
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "eslint": "^8.34.0"
   }
 }
