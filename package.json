@@ -19,6 +19,12 @@
   "homepage": "https://github.com/akbarimo/zoom-attendance#readme",
   "devDependencies": {
     "@google/clasp": "^2.4.2",
-    "eslint": "^8.34.0"
+    "eslint": "^8.34.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "path": "^0.12.7"
   }
 }
