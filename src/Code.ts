@@ -1,10 +1,7 @@
 const { dayjs } = Dayjs;
 
-const num: number = 10;
-
 const AttendanceTaker = () => {
   console.log(`Hello ${world}`);
-  console.log(num);
   console.log(
     dayjs()
       .startOf('month')
