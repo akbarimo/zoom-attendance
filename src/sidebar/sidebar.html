@@ -1,9 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <base target="_top">
-  </head>
-  <body>
-    
-  </body>
-</html>
+<!-- Use a templated HTML printing scriptlet to import common stylesheet. -->
+<?!= HtmlService.createHtmlOutputFromFile('src/sidebar/stylesheet').getContent(); ?>
+
+<!-- Below is the HTML code that defines the sidebar element structure. -->
+<div class="sidebar branding-below">
+  <p>1. Select a Date and Time Zone, then Get Meetings.</p>
+  <p>2. After getting meetings, Select Meeting and Get Participants.</p>
+  <p>3. Adjust start/end time, and Take Attendance!</p>
+  <div class="block" id="sidebar-button-bar">
+    <button id="get-meetings">Get Meetings</button><br />
+    <button id="get-participants">Get Participants</button><br />
+    <button id="take-attendance">Take Attendance</button>
+  </div>
+  <div id="sidebar-status"></div>
+</div>
+
+<!-- Enter sidebar bottom-branding below. -->
+<div class="sidebar bottom">
+  <img
+    alt="Add-on logo"
+    class="logo"
+    width="25"
+    src="https://avatars0.githubusercontent.com/u/10885262?v=3&s=200"
+  />
+  <span class="gray branding-text">
+    Created by Hack Reactor Remote <br />
+    Contributors: Mo Akbari <br />
+    Legacy: Hailey Foster and Robin Kim
+  </span>
+</div>
+
+<!-- Use a templated HTML printing scriptlet to import JavaScript. -->
+<?!= HtmlService.createHtmlOutputFromFile('src/sidebar/sidebarJS').getContent(); ?>
